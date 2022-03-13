@@ -3,8 +3,6 @@ quick-n-dirty curl examples out of the blue:
 
 
 
-
-
 11:31
 root@kali:/home/ec2-user# cat bwaf_login.sh
 curl $1/restapi/v3.1/login -X POST -H Content-Type:application/json -d '{"username":"'$2'", "password":"'$3'"}' > blah.txt
